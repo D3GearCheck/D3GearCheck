@@ -1,2 +1,2 @@
-var data = require("./sample-user-data");
+var data = require("./import");
 console.log(data);
