@@ -88,7 +88,7 @@ var allItemsForSkillList = function(className, skillList) {
 					var list = skillItemSlots[slot];
 					// Merge skill with other items already available
 					for (var j = list.length - 1; j >= 0; j--) {
-						itemSlots[slot].push(list[j].name);
+						itemSlots[slot].push(list[j]);
 					}
 				}
 			}
