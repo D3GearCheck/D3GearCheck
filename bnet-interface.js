@@ -28,14 +28,25 @@ var requestJSON = function(requestURL, successCallback) {
 };
 
 // Request profile data from a battleTag
-var requestProfile = function(battleTag, successCallback) {
+var requestProfile = function(battleTag, successCallback, region) {
+	region = typeof region !== 'undefined' ? region : "us";
 	battleTag = battleTag.replace('#', '-');
-	var url = "http://us.battle.net/api/d3/profile/" + battleTag + "/";
+	var url = "http://" + region + ".battle.net/api/d3/profile/" + battleTag + "/";
+	requestJSON(url, successCallback);
+};
+
+var requestHero = function(battleTag, heroID, successCallback, region) {
+	region = typeof region !== 'undefined' ? region : "us";
+	battleTag = battleTag.replace('#', '-');
+	console.log(heroID);
+	var url = "http://" + region + ".battle.net/api/d3/profile/" + battleTag + "/hero/" + heroID;
+	console.log(url);
 	requestJSON(url, successCallback);
 };
 
 var bnetInterface = {
-	'requestProfile': requestProfile
+	'requestProfile': requestProfile,
+	'requestHero': requestHero
 };
 
 module.exports = bnetInterface;
