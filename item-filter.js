@@ -65,10 +65,46 @@ var itemSlotForSkill = function(slot, className, skillName) {
 	return skillItems;
 };
 
+var allItemsForSkill = function(className, skillName) {
+	var itemSlots = {};
+	for (var slot in items) {
+		if (items.hasOwnProperty(slot)) {
+			var skillItems = itemSlotForSkill(slot, className, skillName);
+			itemSlots[slot] = skillItems;
+		}
+	}
+	return itemSlots;
+};
+
+var allItemsForSkillList = function(className, skillList) {
+	var itemSlots = {"amulet":[],"belt":[],"boots":[],"bracers":[],"chest":[],"gloves":[],"helm":[],"mojo":[],"onehand":[],"pants":[],"quiver":[],"ring":[],"shield":[],"shoulders":[],"source":[],"twohand":[]};
+	for (var i = skillList.length - 1; i >= 0; i--) {
+		var skillData = skillList[i];
+		if (skillData.skill) {
+			//console.log(skillData.skill);	
+			var skillItemSlots = allItemsForSkill(className, skillData.skill.name);
+			for (var slot in itemSlots) {
+				if (slot in skillItemSlots) {
+					var list = skillItemSlots[slot];
+					// Merge skill with other items already available
+					for (var j = list.length - 1; j >= 0; j--) {
+						itemSlots[slot].push(list[j].name);
+					}
+				}
+			}
+		} else {
+			console.log(skillData);
+		}
+	}
+	return itemSlots;
+};
+
 var itemFilter = {
 	'itemSlotForClass':itemSlotForClass,
 	'affixesForSkill':affixesForSkill,
-	'itemSlotForSkill':itemSlotForSkill
+	'itemSlotForSkill':itemSlotForSkill,
+	'allItemsForSkill':allItemsForSkill,
+	'allItemsForSkillList':allItemsForSkillList
 };
 
 module.exports = itemFilter;
