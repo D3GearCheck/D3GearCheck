@@ -349,6 +349,7 @@ var pants = [
 			RANDOM:2
 		},
 		set: 'Immortal King\'s Call',
+		image: '//media.blizzard.com/d3/icons/items/large/p2_unique_pants_02_demonhunter_male.png'
 	},
 	{
 		name: "Inna's Temperance",
