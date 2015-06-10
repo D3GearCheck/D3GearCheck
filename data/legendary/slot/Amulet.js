@@ -551,7 +551,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
-		skill: "none"
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
