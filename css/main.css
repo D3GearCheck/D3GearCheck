@@ -36,6 +36,10 @@ body {
     float: right;
     overflow-y: auto;
 }
+
+#skill_screen .liner .col_right h2 {
+    margin-top: 0;
+}
 #calc_url {
     width: 460px;
 }

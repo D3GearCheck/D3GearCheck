@@ -27,7 +27,6 @@
         </script>
     </head>
     <body>
-
         <div id="toolbar"><h1>D3 Gear Checker</div>
 
         <div id="calc_url_screen" class="client_screen">
@@ -43,36 +42,49 @@
         <div id="skill_screen">
             <div class="liner">
                 <div class="col_right">
+                    <h2 id="suggested_items_title"></h2>
                     <div id="item_list">
                     </div>
                 </div>
                 <div class="col_left">
                     <div id="paperdoll">
-                        <div id="slot_shoulders" class="item_slot">
+                        <div id="slot_shoulders" onclick="client.displaySlotItems(Slots.SHOULDERS);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_shoulder_002_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_ring_left" class="item_slot">
-                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/></div>
-                        <div id="slot_ring_right" class="item_slot"><img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/></div>
-                        <div id="slot_secondary" class="item_slot"><img src="http://us.media.blizzard.com/d3/icons/items/large/unique_orb_set_06_x1_demonhunter_male.png"/></div>
-                        <div id="slot_primary" class="item_slot">
+                        <div id="slot_ring_left" class="item_slot" onclick="client.displaySlotItems(Slots.RING);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_ring_right" onclick="client.displaySlotItems(Slots.RING);" class="item_slot">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_secondary" onclick="client.displaySlotItems(Slots.SECONDARY);" class="item_slot">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_orb_set_06_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_primary"  onclick="client.displaySlotItems(Slots.PRIMARY);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_wand_102_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_feet" class="item_slot"><img src="http://us.media.blizzard.com/d3/icons/items/large/unique_boots_008_x1_demonhunter_male.png"/></div>
-                        <div id="slot_chest" class="item_slot"><img src="http://us.media.blizzard.com/d3/icons/items/large/unique_chest_012_x1_demonhunter_male.png"/></div>
-                        <div id="slot_head" class="item_slot">
-                            <img src="http://us.media.blizzard.com/d3/icons/items/large/helm_208_wizard_male.png"/></div>
-                        <div id="slot_wrist" class="item_slot">
+                        <div id="slot_feet" class="item_slot" onclick="client.displaySlotItems(Slots.FEET);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_boots_008_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_chest" class="item_slot" onclick="client.displaySlotItems(Slots.CHEST);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_chest_012_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_head" class="item_slot" onclick="client.displaySlotItems(Slots.HEAD);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/helm_208_wizard_male.png"/>
+                        </div>
+                        <div id="slot_wrist" class="item_slot" onclick="client.displaySlotItems(Slots.WRIST);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_bracer_103_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_hands" class="item_slot">
-                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_gloves_015_x1_demonhunter_male.png"/></div>
-                        <div id="slot_legs" class="item_slot">
-                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_pants_set_06_x1_demonhunter_male.png"/></div>
-                        <div id="slot_neck" class="item_slot">
+                        <div id="slot_hands" class="item_slot" onclick="client.displaySlotItems(Slots.HANDS);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_gloves_015_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_legs" class="item_slot" onclick="client.displaySlotItems(Slots.LEGS);">
+                            <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_pants_set_06_x1_demonhunter_male.png"/>
+                        </div>
+                        <div id="slot_neck" class="item_slot" onclick="client.displaySlotItems(Slots.NECK);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_amulet_002_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_waist" class="item_slot">
+                        <div id="slot_waist" class="item_slot" onclick="client.displaySlotItems(Slots.WAIST);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_belt_105_x1_demonhunter_male.png"/>
                         </div>
                     </div>
