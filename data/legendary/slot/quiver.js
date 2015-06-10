@@ -5,6 +5,7 @@ var quiver = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -27,11 +28,12 @@ var quiver = [
 		flavor:'Very rare. Made from bones harvested from a live demon—not an easy thing to do.'
 	},
 	{
-		name: "Bombadier's Rucksack",
+		name: "Bombardier's Rucksack",
 		type: "Quiver",
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Sentry",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -54,6 +56,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "Multishot",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -79,6 +82,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Bola",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -100,6 +104,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -121,6 +126,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -145,6 +151,8 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Elemental Arrow",
+		rune: "Ball Lightning"
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -169,6 +177,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -190,6 +199,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Chakram",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -214,6 +224,7 @@ var quiver = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Hungering Arrow",
 		smartLoot: [
 			"Demon Hunter"
 		],

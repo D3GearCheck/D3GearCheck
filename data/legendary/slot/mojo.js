@@ -5,6 +5,7 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -27,6 +28,7 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -53,6 +55,7 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -75,6 +78,7 @@ var mojo = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "Spirit Walk",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -98,6 +102,7 @@ var mojo = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -122,6 +127,7 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -148,6 +154,7 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Summon Zombie Dogs",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -173,6 +180,19 @@ var mojo = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Fetish Army",
+         4:[
+            "Fetish Army",
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ],
+         6:[
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ]
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],

@@ -5,6 +5,7 @@ var shoulders = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:7,fs:2,db:5
 		},
@@ -32,6 +33,7 @@ var shoulders = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:7,fs:2,db:4
 		},
@@ -59,6 +61,7 @@ var shoulders = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:7,fs:2,db:5
 		},
@@ -86,6 +89,7 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -110,6 +114,7 @@ var shoulders = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:7,fs:2
 		},
@@ -136,6 +141,23 @@ var shoulders = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Arcane Orb",
+            "Energy Twister",
+            "Magic Missile",
+            "Shock Pulse"
+         ],
+         4: "Slow Time",
+         6:[
+            "Slow Time",
+            "Arcane Orb",
+            "Energy Twister",
+            "Magic Missile",
+            "Shock Pulse"
+         ],
+      },
 		smartLoot:[
 			"Wizard"
 		],
@@ -157,6 +179,7 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -185,6 +208,7 @@ var shoulders = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:7,fs:2,db:5
 		},
@@ -212,6 +236,13 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+      element: "setElement",
+      setElement: {
+         2: "none",
+         4: "Fire",
+         6: "Fire",
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -233,6 +264,12 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Wall of Zombies",
+         6: "Wall of Zombies"
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -254,6 +291,7 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -282,6 +320,16 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Haunt",
+         4: "Soul Harvest",
+         6: [
+            "Soul Harvest",
+            "Haunt",
+            "Locust Swarm",
+         ]
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -303,6 +351,12 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Dashing Strike",
+         6: "Dashing Strike"
+      },
 		smartLoot: [
 			"Monk"
 		],
@@ -324,6 +378,19 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Companion",
+         4: "Sentry",
+         6: [
+            "Elemental Arrow",
+            "Chakram",
+            "Impale",
+            "Multishot",
+            "Cluster Arrow",
+            "Sentry"
+         ],
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -345,6 +412,12 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Akarat's Champion",
+         6: "Akarat's Champion"
+      },
 		smartLoot: [
 			"Crusader"
 		],
@@ -366,6 +439,12 @@ var shoulders = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Rend",
+         4: "Whirlwind",
+         6: "Whirlwind"
+      },
 		smartLoot:[
 			"Barbarian"
 		],
@@ -387,6 +466,7 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -415,6 +495,12 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Furious Charge",
+         4: "Furious Charge",
+         5: "Furious Charge"
+      },
 		smartLoot: [
 			"Barbarian"
 		],
@@ -436,6 +522,28 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: [
+            "Shield Bash",
+            "Sweep Attack",
+            "Laws of Valor",
+            "Laws of Justice",
+            "Laws of Hope",
+            "Shield Glare",
+            "Iron Skin",
+            "Consecration",
+            "Judgment"
+         ],
+         4: [
+            "Shield Bash",
+            "Sweep Attack"
+         ],
+         6: [
+            "Shield Bash",
+            "Sweep Attack"
+         ]
+      },
 		smartLoot: [
 			"Crusader"
 		],
@@ -457,6 +565,7 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -482,6 +591,11 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Earthquake",
+         4: "Leap"
+      },
 		smartLoot: [
 			"Barbarian"
 		],
@@ -503,6 +617,23 @@ var shoulders = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Tempest Rush",
+            "Wave of Light"
+         ],
+         4: [
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Tempest Rush",
+            "Wave of Light"
+         ]
+      },
 		smartLoot: [
 			"Monk"
 		],
@@ -524,6 +655,12 @@ var shoulders = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "none",
+         6: "Multishot"
+      },
 		smartLoot:[
 			"Demon Hunter"
 		],
@@ -545,6 +682,7 @@ var shoulders = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Furious Charge",
 		smartLoot: [
 			"Barbarian"
 		],

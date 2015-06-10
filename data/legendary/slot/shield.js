@@ -5,6 +5,7 @@ var shield = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -29,6 +30,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Condemn",
 		smartLoot: [
 			"Crusader"
 		],
@@ -49,6 +51,8 @@ var shield = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
+		element: "Holy",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -75,6 +79,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Iron Skin",
 		smartLoot: [
 			"Crusader"
 		],
@@ -98,6 +103,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -118,6 +124,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Blessed Shield",
 		smartLoot: [
 			"Crusader"
 		],
@@ -141,6 +148,7 @@ var shield = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "Shield Bash",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -166,6 +174,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -190,6 +199,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Shield Glare",
 		smartLoot: [
 			"Crusader"
 		],
@@ -214,6 +224,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Phalanx",
 		smartLoot: [
 			"Crusader"
 		],
@@ -234,6 +245,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -258,6 +270,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Sweep Attack",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -285,6 +298,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Heaven's Fury",
 		smartLoot: [
 			"Crusader"
 		],
@@ -308,6 +322,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -335,6 +350,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -360,6 +376,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -388,6 +405,7 @@ var shield = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -415,6 +433,7 @@ var shield = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Provoke",
 		smartLoot: [
 			"Crusader"
 		],
@@ -435,6 +454,7 @@ var shield = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
