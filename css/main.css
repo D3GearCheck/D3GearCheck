@@ -18,9 +18,14 @@ body {
 #calc_url_screen {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid #ff0000;
+    border: 0px solid #ff0000;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
+    height: 46px;
+    padding: 6px;
+    background: #000;
+    border-radius: 10px;
 }
 
 #skill_screen .col_left {
@@ -41,7 +46,7 @@ body {
     margin-top: 0;
 }
 #calc_url {
-    width: 460px;
+    width: 480px;
 }
 
 #loader {
