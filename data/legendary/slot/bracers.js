@@ -89,6 +89,7 @@ var bracers = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:72,vc:7,fs:2,db:4
 		},

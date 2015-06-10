@@ -40,6 +40,80 @@ var affixesForSkill = function(skillName) {
 	return skillAffixes;
 };
 
+var allItemsForClass = function (className) {
+	var classItems = {};
+	for (var slot in items) {
+		slotItems = [];
+		var itemList = items[slot];
+		for (var i = itemList.length - 1; i >= 0; i--) {
+			var item = itemList[i];
+			if (item.smartLoot.indexOf(className) >= 0) {
+				slotItems.push(item);
+			}
+		}
+		classItems[slot] = slotItems;
+	}
+	return classItems;
+}
+
+var skillItemsForClass = function (classItems, skillList) {
+	var skillItems = {};
+	for (var slot in classItems) {
+		slotItems = {};
+		var itemList = classItems[slot];
+		for (var i = itemList.length - 1; i >= 0; i--) {
+			var item = itemList[i];
+			if (!item.hasOwnProperty('skill')) continue;
+			for (var s in skillList) {
+				if (item.skill.indexOf(s.skill.name) >= 0) {
+					slotItems[item] = true;
+				}
+			}
+		}
+		slotItems = Object.keys(slotItems);
+		skillItems[slot] = slotItems;
+	}
+	return skillItems;
+}
+
+var setItemsForClass = function (classItems, skillList) {
+	// Takes a dictionary containing lists of class/smartloot items mapped to item
+	// slots, checks each list to see if the items specified modify a skill the player
+	// is using, then returns a dictionary of those items mapped by slot.
+	var setItems = {};
+	for (var slot in classItems) {
+		var shortItemList = classItems[slot];
+		var slotItems = {};
+		for (var i = shortItemList.length - 1; i >= 0; i--) {
+			var currItem = shortItemList[i];
+			if (!currItem.hasOwnProperty('skill')) continue;
+			if (currItem.hasOwnProperty('set')) {
+				if (currItem.skill == 'none') continue;
+				if (currItem.skill == 'setSkills') {
+					for (var key in currItem.setSkills) {
+						var itemSkillList = currItem.setSkills[key];
+						for (var s in skillList) {
+							if (itemSkillList.indexOf(skillList[s].skill.name) > -1) {
+								slotItems[currItem] = true;
+							}
+						}
+					}
+				} else {
+					for (var s in skillList) {
+						if (currItem.skill.indexOf(s.skill.name) > -1) {
+							slotItems[currItem] = true;
+						}
+					}
+				}
+			}
+		}
+		slotItems = Object.keys(slotItems);
+		setItems[slot] = slotItems;
+	}
+	
+	return setItems;
+}
+
 var itemSlotForSkill = function(slot, className, skillName) {
 	var classItems = itemSlotForClass(slot, className);
 	var skillAffixes = affixesForSkill(skillName);
@@ -104,7 +178,10 @@ var itemFilter = {
 	'affixesForSkill':affixesForSkill,
 	'itemSlotForSkill':itemSlotForSkill,
 	'allItemsForSkill':allItemsForSkill,
-	'allItemsForSkillList':allItemsForSkillList
+	'allItemsForSkillList':allItemsForSkillList,
+	'allItemsForClass':allItemsForClass,
+	'skillItemsForClass':skillItemsForClass,
+	'setItemsForClass':setItemsForClass
 };
 
 module.exports = itemFilter;
