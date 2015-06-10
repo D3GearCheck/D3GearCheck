@@ -5,6 +5,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "War Cry",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -28,6 +29,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Ground Stomp",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -56,6 +58,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -80,6 +83,18 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Call of the Ancients",
+         4:[
+            "Wrath of the Berserker",
+            "Call of the Ancients"
+         ],
+         6:[
+            "Wrath of the Berserker",
+            "Call of the Ancients"
+         ]
+      },
 		smartLoot: [
 			"Barbarian"
 		],
@@ -102,6 +117,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -125,6 +141,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Rend",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -145,6 +162,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Ignore Pain",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -169,6 +187,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "Frenzy",
 		smartLoot: [
 			"Barbarian"
 		],
