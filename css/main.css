@@ -1,17 +1,26 @@
 body {
-    background: url('../images/bg1.jpg') no-repeat #212121;
+    background: url('../images/bg1.jpg') no-repeat #1a1a1a;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
+    color: #fff;
+
+}
+
+#toolbar {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
 
 }
 
 #calc_url_screen {
-    width: 650px;
+    width: 900px;
     margin: 0 auto;
     border: 1px solid #ff0000;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 #skill_screen .col_left {
@@ -25,6 +34,7 @@ body {
     height: 550px;
     border: 1px solid #ff0000;
     float: right;
+    overflow-y: auto;
 }
 #calc_url {
     width: 460px;
@@ -47,6 +57,17 @@ body {
     margin-left: -182px;
 }
 
+#item_list {
+    height: auto;
+    color: #fff;
+}
+
+.item_clas_set { color: #91e22e !important;}
+.item_legendary { color: #bf642f !important;}
+
+#item_list .item {
+    border-bottom: 1px solid #ff0000;
+}
 
 #loader #loading_text {
     font-size: 16px;
@@ -61,21 +82,24 @@ body {
 
 #skill_screen .liner {
     padding: 15px;
+
 }
 
 #skill_screen h1 {
     color: #fff;
     margin-top: 5px;
     margin-left: 5px;
+    overflow-y: auto;
 }
 
 #skill_screen {
     display: block;
     width: 900px;
-    height: 600px;
+    min-height: 600px;
     background: #000;
     border-radius: 20px;
     margin: 0 auto;
+    overflow-y: auto;
 }
 .skill_bar .skill {
     width: 42px;

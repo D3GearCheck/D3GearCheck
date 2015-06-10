@@ -1,5 +1,5 @@
-var amulet = require('./slot/amulet.js');
-var belt = require('./slot/belt.js');
+var amulet = require('./slot/Amulet.js');
+var belt = require('./slot/Belt.js');
 var boots = require('./slot/boots.js');
 var bracers = require('./slot/bracers.js');
 var chest = require('./slot/chest.js');
