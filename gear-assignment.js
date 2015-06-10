@@ -1,5 +1,6 @@
 var itemFilter = require('./item-filter');
 
+// This should probably be a class you can instantiate, but it's 9am and I couldn't be bothered
 var Loadout = {
 	classItems:{},
 	skillItems:{},

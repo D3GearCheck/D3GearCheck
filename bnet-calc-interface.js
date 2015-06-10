@@ -6,7 +6,8 @@ var skillsFromCalculator = function(calcURL) {
 	if (matches) {
 		className = matches[1];
 		hash = matches[2];
-		return calc.importBuild(className, hash);
+		skills = calc.importBuild(className, hash);
+		return {"skills":skills, "className":className};
 	} else {
 		console.warn("Malformed Calculator URL: " + calcURL);
 	}

@@ -3,8 +3,8 @@
 function itemFilterTest() {
 	var itemFilter = require('../item-filter');
 	var calc = require('../bnet-calc-interface');
-	var skills = calc('http://us.battle.net/d3/en/calculator/barbarian#chkdjP!bhjd!bYZZcZ');
-	var filtered = itemFilter.allItemsForSkillList('barbarian', skills.active);
+	var buildInfo = calc('http://us.battle.net/d3/en/calculator/barbarian#chkdjP!bhjd!bYZZcZ');
+	var filtered = itemFilter.allItemsForSkillList('barbarian', buildInfo.skills.active);
 	console.log(filtered);
 }
 
