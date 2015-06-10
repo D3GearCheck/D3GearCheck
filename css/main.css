@@ -47,26 +47,58 @@ body {
     padding-top: 8px;
 }
 
-
+#skill_screen .liner {
+    padding: 15px;
+}
 
 #skill_screen h1 {
     color: #fff;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 #skill_screen {
-    display: none;
-    width: 600px;
-    height: 400px;
+    display: block;
+    width: 900px;
+    height: 600px;
     background: #000;
     border-radius: 20px;
     margin: 0 auto;
 }
 
 #skill_bar .skill {
-    width: 100px;
-    height: 60px;
-    border: 1px solid #ff0000;
+    width: 42px;
+    height: 42px;
+    border: 0px solid #ff0000;
     float: left;
 }
+
+#paperdoll {
+    width: 300px;
+    height: 422px;
+    border: 0px solid #ff0000;
+    background-position: 68.9% 68%;
+    border-radius: 4px;
+    position: relative;
+    background-image: url(http://us.battle.net/d3/static/images/profile/hero/paperdoll/wizard-female.jpg);
+}
+
+.item_slot {
+    border: 0px dashed #ff0000;
+    position: absolute;
+}
+
+#slot_shoulders { float: left;}
+
+#slot_ring_left { top: 214px;  left: 9px; width: 64px; height: 64px; }
+#slot_ring_right { top: 214px; left: 225px; width: 64px; height: 64px;}
+#slot_secondary { top: 291px; left: 226px; width: 64px; height: 128px;}
+#slot_primary{ top: 0px; left: 0px; width: 64px; height: 128px;}
+#slot_feet { top: 307px; left: 118px; width: 64px; height: 128px;}
+#slot_chest { top: 53px; left: 109px; width: 84px; height: 164px; }
+#slot_head { top: -28px; left: 118px; width: 64px; height: 128px; }
+#slot_wrist { top: 0px; left: 0px; width: 64px; height: 128px; }
+#slot_hands { top: 0px; left: 0px; width: 64px; height: 128px; }
+#slot_legs { top: 213px; left: 118px; width: 64px; height: 128px; }
+#slot_neck { top: 0px; left: 0px; width: 64px; height: 128px; }
+#slot_waist { top: 0px; left: 0px; width: 64px; height: 64px;}
