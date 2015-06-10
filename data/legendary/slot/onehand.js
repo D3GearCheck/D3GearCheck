@@ -1229,7 +1229,10 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
-		skill: "Vault",
+		skill: "setSkills",
+		setSkills: {
+			2: "Vault"
+		},
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1252,7 +1255,10 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
-		skill: "Vault",
+		skill: "setSkills",
+		setSkills: {
+			2: "Vault"
+		},
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1747,7 +1753,9 @@ var onehand = [
 		hc: false,
 		season: false,
 		skill: "setSkills",
-		setSkills: "Whirlwind",
+		setSkills: {
+			2:"Whirlwind"
+		},
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1771,7 +1779,9 @@ var onehand = [
 		hc: false,
 		season: false,
 		skill: "setSkills",
-		setSkills: "Whirlwind",
+		setSkills: {
+			2:"Whirlwind"
+		},
 		smartLoot: [
 			"Barbarian"
 		],
