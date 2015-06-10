@@ -9,8 +9,9 @@ function itemFilterTest() {
 	console.log("reached this point");
 	console.log(skills);
 	var classItems = itemFilter.allItemsForClass('Barbarian');
-	//var setItems = itemFilter.setItemsForClass(classItems, skills.active);
+	var setItems = itemFilter.setItemsForClass(classItems, skills.active);
 	console.log(classItems);
+	console.log(setItems);
 }
 
 itemFilterTest();
