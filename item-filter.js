@@ -41,6 +41,9 @@ var affixesForSkill = function(skillName) {
 };
 
 var allItemsForClass = function (className) {
+	// Based on class name, creates a dictionary of lists of items mapped by item slot.
+	// Each list contains only the items that are smartLoot for that class.
+	
 	var classItems = {};
 	for (var slot in items) {
 		slotItems = [];
@@ -57,6 +60,9 @@ var allItemsForClass = function (className) {
 }
 
 var skillItemsForClass = function (classItems, skillList) {
+	// Takes in a dict of lists of items mapped to item slots, and a list of skills in the build
+	// Outputs a dict of lists of items mapped to item slots, restricted to the items affecting
+	// a skill in the build
 	var skillItems = {};
 	for (var slot in classItems) {
 		slotItems = [];
@@ -83,8 +89,8 @@ var skillItemsForClass = function (classItems, skillList) {
 }
 
 var setItemsForClass = function (classItems, skillList) {
-	// Takes a dictionary containing lists of class/smartloot items mapped to item
-	// slots, checks each list to see if the items specified modify a skill the player
+	// Takes a dictionary containing lists of class/smartLoot items mapped to item
+	// slots, checks each list to find the set items which modify a skill the player
 	// is using, then returns a dictionary of those items mapped by slot.
 	var setItems = {};
 	for (var slot in classItems) {
