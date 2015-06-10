@@ -71,7 +71,7 @@ var skillItemsForClass = function (classItems, skillList) {
 			var item = itemList[i];
 			if (!item.hasOwnProperty('skill')) continue;
 			for (var s in skillList) {
-				if (item.skill.indexOf(s.skill.name) >= 0) {
+				if (item.skill.indexOf(skillList[s].skill.name) >= 0) {
 					var found = false;
 					for (var r in slotItems) {
 						if (slotItems[r].name == item.name) {	
