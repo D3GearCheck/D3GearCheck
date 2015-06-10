@@ -59,18 +59,24 @@ var allItemsForClass = function (className) {
 var skillItemsForClass = function (classItems, skillList) {
 	var skillItems = {};
 	for (var slot in classItems) {
-		slotItems = {};
+		slotItems = [];
 		var itemList = classItems[slot];
 		for (var i = itemList.length - 1; i >= 0; i--) {
 			var item = itemList[i];
 			if (!item.hasOwnProperty('skill')) continue;
 			for (var s in skillList) {
 				if (item.skill.indexOf(s.skill.name) >= 0) {
-					slotItems[item] = true;
+					var found = false;
+					for (var r in slotItems) {
+						if (slotItems[r].name == item.name) {	
+							found = true;
+							break;
+						}
+					}
+					if (found == false) slotItems.push(item);
 				}
 			}
 		}
-		slotItems = Object.keys(slotItems);
 		skillItems[slot] = slotItems;
 	}
 	return skillItems;
@@ -83,7 +89,7 @@ var setItemsForClass = function (classItems, skillList) {
 	var setItems = {};
 	for (var slot in classItems) {
 		var shortItemList = classItems[slot];
-		var slotItems = {};
+		var slotItems = [];
 		for (var i = shortItemList.length - 1; i >= 0; i--) {
 			var currItem = shortItemList[i];
 			if (!currItem.hasOwnProperty('skill')) continue;
@@ -94,20 +100,33 @@ var setItemsForClass = function (classItems, skillList) {
 						var itemSkillList = currItem.setSkills[key];
 						for (var s in skillList) {
 							if (itemSkillList.indexOf(skillList[s].skill.name) > -1) {
-								slotItems[currItem] = true;
+								var found = false;
+								for (var r in slotItems) {
+									if (slotItems[r].name == currItem.name) {	
+										found = true;
+										break;
+									}
+								}
+								if (found == false) slotItems.push(currItem);
 							}
 						}
 					}
 				} else {
 					for (var s in skillList) {
 						if (currItem.skill.indexOf(s.skill.name) > -1) {
-							slotItems[currItem] = true;
+							var found = false;
+							for (var r in slotItems) {
+								if (slotItems[r].name == currItem.name) {	
+									found = true;
+									break;
+								}
+							}
+							if (found == false) slotItems.push(currItem);
 						}
 					}
 				}
 			}
 		}
-		slotItems = Object.keys(slotItems);
 		setItems[slot] = slotItems;
 	}
 	
