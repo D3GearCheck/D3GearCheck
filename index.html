@@ -10,11 +10,38 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap.css"/>
         <script src="lib/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="lib/frontend.js"></script>
+        <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/require.js"></script>
         <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript">
+        // Start the client when 
+        $(document).ready(function() { client.start(); });
+        </script>
     </head>
     <body>
+        <div id="calc_url_screen" class="client_screen">
+            <form class="form-inline">
+              <div class="form-group">
+                <input type="text" class="form-control" id="calc_url" 
+                placeholder="Enter Calculator URL" value="http://us.battle.net/d3/en/calculator/barbarian#chkdjP!bhjd!bYZZcZ">
+              </div>
+              <button type="button" onclick="client.fetchSkills();" 
+              class="btn btn-default">Go</button>
+            </form>
+        </div>
+        <div id="skill_screen">
+            <h1>Skills</h1>
+            <div id="skill_bar">
 
+            </div>
+        </div>
+
+        <div id="loader" class="client_screen">
+            <img src="images/loading.gif" /><br/>
+            <div id="loading_text">Loading...</div>
+        </div>
     </body>
 </html>

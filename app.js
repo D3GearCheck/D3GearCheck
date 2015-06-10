@@ -1,2 +1,4 @@
-var data = require("./import");
-console.log(data);
+//var data = require("./import");
+//console.log(data);
+
+

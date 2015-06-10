@@ -1,0 +1,758 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Lev",
+				"LevDist"
+			],
+			[
+				"char",
+				"char_counts"
+			],
+			[
+				"goal",
+				"goalQtys"
+			],
+			[
+				"simple",
+				"simplexml_load_string"
+			],
+			[
+				"next",
+				"next_point"
+			],
+			[
+				"curr",
+				"curr_point"
+			],
+			[
+				"astar",
+				"astar_heuristic"
+			],
+			[
+				"cur",
+				"curr_point"
+			],
+			[
+				"dest_",
+				"dest_point"
+			],
+			[
+				"source",
+				"source_point"
+			],
+			[
+				"dest",
+				"dest_box"
+			],
+			[
+				"sou",
+				"source_point"
+			],
+			[
+				"adj",
+				"adjacent_box"
+			],
+			[
+				"passwo",
+				"passwordEncryptedWithMD5"
+			],
+			[
+				"getFood",
+				"getFoodYouAreDefending"
+			],
+			[
+				"keep",
+				"keepWalking"
+			],
+			[
+				"Is",
+				"isPacman"
+			],
+			[
+				"generate",
+				"generateDeadEndTable"
+			],
+			[
+				"getF",
+				"getFoodYouAreDefending"
+			],
+			[
+				"getNearest",
+				"getNearestPacmanFeature"
+			],
+			[
+				"get",
+				"getClosestFood"
+			],
+			[
+				"Check",
+				"CheckForNextLevel"
+			],
+			[
+				"Se",
+				"SetScreenContent"
+			],
+			[
+				"rece",
+				"receptionLevel"
+			],
+			[
+				"current",
+				"currentGameState"
+			],
+			[
+				"visi",
+				"visitedCorners"
+			],
+			[
+				"starting",
+				"startingPosition"
+			],
+			[
+				"getS",
+				"getSuccessors"
+			],
+			[
+				"is",
+				"isGoalState"
+			],
+			[
+				"Direct",
+				"Directions"
+			],
+			[
+				"type",
+				"type_tok"
+			],
+			[
+				"expr",
+				"expr_check_r"
+			],
+			[
+				"get_",
+				"get_yytname"
+			],
+			[
+				"types",
+				"types_match"
+			],
+			[
+				"mark",
+				"markNearbyMovable"
+			],
+			[
+				"Main",
+				"MainScreen"
+			],
+			[
+				"clu",
+				"cloudBlocker"
+			],
+			[
+				"Ent",
+				"Entities"
+			],
+			[
+				"remove",
+				"removeChild"
+			],
+			[
+				"Spawn",
+				"SpawnOnMain"
+			],
+			[
+				"smallTre",
+				"smallTreeParent"
+			],
+			[
+				"small",
+				"smallTreeParent"
+			],
+			[
+				"entity",
+				"entityType"
+			],
+			[
+				"Entity",
+				"EntityMgr"
+			],
+			[
+				"has",
+				"has_unsaved_changes"
+			],
+			[
+				"insert",
+				"insert_content"
+			],
+			[
+				"sidebar_",
+				"sidebar_vertical_menu"
+			],
+			[
+				"behavior",
+				"behaviorTimer"
+			],
+			[
+				"ent",
+				"entityCount"
+			],
+			[
+				"chapter",
+				"chapterId"
+			],
+			[
+				"zoom",
+				"zoomParent"
+			],
+			[
+				"error",
+				"errorThrown"
+			],
+			[
+				"slect",
+				"selectedEntity"
+			],
+			[
+				"selected",
+				"selectedEntity"
+			],
+			[
+				"overlay",
+				"seasonOverlay"
+			],
+			[
+				"acive",
+				"activeCount"
+			],
+			[
+				"Cloud",
+				"CloudSystem"
+			],
+			[
+				"SERVER_CLIENT",
+				"SERVER_CLIENT_GOODBYE"
+			],
+			[
+				"L65Connect",
+				"L65ConnectionState"
+			],
+			[
+				"session",
+				"sessionHello"
+			],
+			[
+				"server",
+				"serverHello"
+			],
+			[
+				"L65Event",
+				"L65EventCodes"
+			],
+			[
+				"proto",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/frontend.js",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/X/ucsc/d3gearcheck/import.js",
+		"/X/ucsc/d3gearcheck/item-filter.js",
+		"/X/ucsc/d3gearcheck/app.js",
+		"/X/ucsc/d3gearcheck/bnet-interface.js",
+		"/D/MQ2/MQ2NetBot.cpp",
+		"/D/MQ2/MQ2Melee/MQ2Melee.cpp",
+		"/D/MQ2/MQ2/MQ2RedTail/Common.h",
+		"/D/MQ2/MQ2/MQ2RedTail/Common.cpp",
+		"/D/MQ2/MQ2Krust.cpp",
+		"/D/MQ2/MQ2SpawnMaster.cpp",
+		"/D/MQ2/MQ2Cast.cpp",
+		"/X/ucsc/d3gearcheck/tests/tests.js",
+		"/X/hlsdev/netgain/public/bcs_hide.php",
+		"/X/hlsdev/netgain/public/.htaccess",
+		"/X/hlsdev/netgain/public/assets/style.css",
+		"/X/hlsdev/netgain/public/assets/script.js",
+		"/D/Projects/SedimentalStorm/Assets/Interface/main_menu.xml",
+		"/D/Projects/RedTailServer/Main.cpp",
+		"/C/Users/Home/Desktop/New Text Document (4).txt",
+		"/D/MQ2/MQ2/Blech/Blech.h",
+		"/D/Projects/SedimentalStorm/Assets/Interface/score_frame.xml",
+		"/D/Projects/SedimentalStorm/Assets/GlobalResources.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/score_screen.xml",
+		"/X/ucsc/thesis/public/lib/game/main.js",
+		"/X/ucsc/ImpactJS-WebGL/plugin/webgl-2d.js",
+		"/X/ucsc/thesis/public/lib/plugins/texture-atlas.js",
+		"/X/ucsc/impact-1.24/impact/lib/impact/game.js",
+		"/X/ucsc/thesis/public/lib/game/entities/character.js",
+		"/X/ucsc/thesis/public/lib/impact/game.js",
+		"/X/ucsc/thesis/public/assets/scripts.js",
+		"/X/ucsc/thesis/public/lib/game/entities/beacon.js",
+		"/X/ucsc/ImpactJS-WebGL/webgl-2d.js",
+		"/D/Projects/SedimentalStorm/Assets/Interface/player_score_box.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/player_nametag.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/manifest.xml",
+		"/D/Projects/SedimentalStorm/Assets/ResourceManifest.xml",
+		"/D/Projects/SedimentalStorm/Assets/ControlSchemes/TowerfallStyle.xml",
+		"/D/Projects/SedimentalStorm/Assets/Fonts/pt_sans_license.txt",
+		"/D/Projects/SedimentalStorm/Assets/Interface/pause_menu.xml",
+		"/D/Projects/MinecraftPlanner/graph.h",
+		"/D/Projects/MinecraftPlanner/graph.cpp",
+		"/F/work/prep/words/main.cpp",
+		"/D/Assign4PCBoggle/4 Boggle starter/lexicon.cpp",
+		"/F/work/prep/words/LevenDistance/LevenDistance.cpp",
+		"/X/hlsdev/guildchat/public/index.php",
+		"/X/hlsdev/netgain/public/assets/client.js",
+		"/X/hlsdev/netgain/public/assets/styles.css",
+		"/D/Projects/MinecraftPlanner/VS2013/Release/crafting.json",
+		"/F/work/minecraftplanner/crafting.json",
+		"/D/Projects/SedimentalStorm/Game/Settings.json",
+		"/D/Projects/SedimentalStorm/Release/Settings.json",
+		"/D/Projects/SedimentalStorm/Beta1/SedimentalStorm/Settings.json",
+		"/F/work/minecraftplanner/planner.cpp",
+		"/F/work/minecraftplanner/graph.cpp",
+		"/F/work/minecraftplanner/graph.h",
+		"/F/work/minecraftplanner/main.cpp",
+		"/F/work/testdome/real1/main.cpp",
+		"/C/Users/Home/Desktop/last.txt.txt",
+		"/F/work/minecraftplanner/plutonium.json",
+		"/F/work/prep/stringmatch/main.cpp",
+		"/D/New Text Document.txt",
+		"/F/work/testdome/frog/path.cpp",
+		"/X/_hlfx/1.4.0/lib/tpl_engine.lib.php",
+		"/X/hlsdev/netgain/public/bcs.php",
+		"/D/diff/origin.txt",
+		"/F/work/testdome/path.cpp",
+		"/X/hlsdev/netgain/globals/cfg/vega/modules/admin/logo-manager.cfg.php",
+		"/F/work/testdome/file.cpp",
+		"/X/_hlfx/1.3/lib/uget.lib.php",
+		"/X/_hlfx_modules/logo-manager/1.1/mod.map.php",
+		"/X/hlsdev/netgain/public/assets/bomgar_chat.js",
+		"/X/YAxisAlpha.txt",
+		"/X/ucsc/thesis/public/chapter_data/0.json",
+		"/D/Projects/BetweenTheCracks_/Between the Cracks/Assets/Scripts/TextNode.cs",
+		"/D/Projects/BetweenTheCracks/.gitignore",
+		"/F/work/prep/castle/main.cpp",
+		"/F/work/prep/castle/grid.txt",
+		"/D/Projects/SedimentalStorm/Assets/UserSettings.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/alpha_build.xml",
+		"/D/Projects/SedimentalStorm/Assets/TextureManifest.json",
+		"/D/SedStormReleases/Alpha2/Settings.json",
+		"/X/codes.html",
+		"/D/Projects/SedimentalStorm/Release/logs/myeasylog.log",
+		"/D/Projects/SedimentalStorm/Source/Source/Settings.h",
+		"/D/Projects/SedimentalStorm/Source/Source/ResourceManager_.h",
+		"/D/Projects/SedimentalStorm/Assets/Interface/Default/player_nametag.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/Default/main_menu.xml",
+		"/D/Projects/SedimentalStorm/Assets/Interface/Default/manifest.xml",
+		"/D/Projects/cmps-146-project2/dungeon.png.mesh.pickle",
+		"/D/Projects/cmps-146-project2/p3_pathfinder.py",
+		"/D/Projects/cmps-146-project2/dungeon.png.mesh.png",
+		"/D/Projects/cmps-140-project2/multiAgents.py",
+		"/D/Programs/Python27/Lib/lib-tk/ttk.py",
+		"/D/Projects/SedimentalStorm/Assets/Interface/Default/main_menu.json",
+		"/F/work/prep/checkers/statespace.h",
+		"/F/work/prep/checkers/hexrange.sh",
+		"/F/work/prep/checkers/game.h",
+		"/D/Projects/cmps-146-project1/dungeon.py",
+		"/F/work/prep/pal.cpp",
+		"/X/_hlfx/1.3/lib/email.lib.php",
+		"/X/_hlfx_modules/forgot-password/1.1/lib/forgot_password.lib.php",
+		"/X/hlsgames/q2019_site/public/locals/emails/password_reset_request.em.php",
+		"/X/hlsgames/q2019_site/public/locals/emails/pass_reset_request.em.php",
+		"/D/Projects/DigitalGameMat_working_20141217/DigitalGameMat/DigitalGameMat.ino",
+		"/D/Projects/DigitalGameMat_working_20141217/DigitalGameMat/TokenReader.h",
+		"/X/hlsgames/lg/globals/globals.php",
+		"/D/Projects/DigitalGameMat_working_20141217/DigitalGameMat/DigitalGameMat.h",
+		"/D/Projects/DigitalGameMat/DigitalGameMat.ino",
+		"/D/Projects/DigitalGameMat_working_20141217/DigitalGameMat/MFRC522.cpp",
+		"/D/Projects/DigitalGameMat_working_20141217/DigitalGameMat/RC522Macros.h",
+		"/D/backup_orion/drive recovery/thoth/logs/backup.sql",
+		"/X/hlsgames/lg/globals/checklogin.php",
+		"/X/hlsgames/lg/globals/rc_functions.php",
+		"/X/hlsgames/lg/globals/secure.php",
+		"/X/hlsgames/lg/public/index.php",
+		"/X/hlsgames/lg/public/history.php",
+		"/X/hlsgames/lg/globals/current.php",
+		"/X/hlsgames/lg/globals/functions.php",
+		"/X/hlsgames/lg/globals/connect.php",
+		"/X/hlsgames/lg/globals/interface.php",
+		"/X/hlsgames/lg/globals/session.php",
+		"/D/backup_orion/drive recovery/thoth/PBackup/legionaires/realmga_productions_03-11-05.sql",
+		"/D/backup_orion/drive recovery/thoth/PBackup/legionaires/exchange/exchange_backup_01-08-05.sql",
+		"/D/backup_orion/drive recovery/thoth/PBackup/legionaires/exchange/realmga_productions_02-20-05.sql",
+		"/D/backup_orion/drive recovery/thoth/PBackup/legionaires/exchange/structure_01-08-05.sql",
+		"/D/Projects/cmps-140-project5/p5/defensiveAgent.py",
+		"/D/rawinput_latest/rawinput latest/RawInput/RawInput.cs",
+		"/D/Projects/cmps-140-project5/p5/game.py"
+	],
+	"find":
+	{
+		"height": 61.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"X:\\hlsdev\\omf_live\\",
+			"X:\\ucsc\\fungal-clock"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"aggro",
+			"pSpawn->",
+			"pNext",
+			"kos",
+			"Target",
+			"pValues",
+			"DRA",
+			"hud",
+			"Hud",
+			"Inrange",
+			"pSpawn",
+			"npc",
+			"IsWatched",
+			"pNext",
+			"PSPAWNINFO",
+			"Target",
+			"NUM_SHORT_",
+			"SongMax",
+			"BuffMax",
+			"Feed(",
+			"pMeleeEvent",
+			"pEvents",
+			"pEvent",
+			"SaveList",
+			"AUTOFIREOFF",
+			"pMeleeEvent",
+			"pMElee",
+			"InCom",
+			"HP",
+			"combat",
+			"Target",
+			"CharInfo",
+			"10",
+			"OUTOFMANA",
+			"Mana",
+			"Hp",
+			"->Mana",
+			"STANDSTATE_STAND",
+			"Skill",
+			"CastingData",
+			"cast",
+			"Casting",
+			"casting",
+			"Casting",
+			"iscasting",
+			"IsCasting()",
+			"IsCasting",
+			"EzCommand",
+			"SpelLCheck",
+			"SpellReady",
+			"Cast",
+			"Target()",
+			"TargetType(",
+			"target",
+			"NOID",
+			"SkPress",
+			"Ability",
+			"cast",
+			"pathTimer",
+			"this.pos",
+			"GetCharInfo",
+			"std::cout",
+			"std",
+			"            \n",
+			"craft wooden_",
+			"craft wooden",
+			"craft stick",
+			"craft iron_pickaxe",
+			"ingot",
+			"craft iron_pickaxe",
+			"iron_pickaxe",
+			"stone_pickaxe",
+			"punch",
+			"craft plank",
+			"ingot",
+			"\"stone_pickaxe\":",
+			"\"plank",
+			"\"plank\"",
+			"seconds",
+			"Search",
+			"goalQty",
+			"BuildDeps",
+			"SetMax",
+			"GetNextState",
+			"GetStartSta",
+			"goalQtys",
+			"++;   ",
+			"str",
+			".append",
+			"waiting",
+			"castle",
+			"tiles",
+			"rows",
+			"OnSelect",
+			"bistar",
+			"dump",
+			".dump",
+			"is a palindrome",
+			"QUEUE:",
+			"un@",
+			"un",
+			"uin",
+			"from,",
+			"chapterDone",
+			"onclick",
+			"cfg",
+			"db_",
+			"draw",
+			"debug",
+			"draw",
+			"debug",
+			"getFood",
+			"succ",
+			"Actions",
+			"getDead",
+			".visited",
+			"visited",
+			"getFood",
+			"pos =",
+			"pacman",
+			"me",
+			"AdvanceTurn",
+			"spacer_",
+			"spaccer",
+			"check",
+			"AdvanceTurn",
+			"turnId =",
+			"NextChapter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"1c138e",
+			"",
+			"L65Functions.",
+			"L65EventCodes.",
+			"L65Events.register"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/frontend.js",
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								577,
+								577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

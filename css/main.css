@@ -1,0 +1,72 @@
+body {
+    background: #212121;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+}
+
+#calc_url_screen {
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid #ff0000;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#calc_url {
+    width: 460px;
+}
+
+#loader {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    width: 300px;
+    height: 273px;
+    top: 25%;
+    left: 40%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#loader img {
+    margin-left: -182px;
+}
+
+
+#loader #loading_text {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    background: #000;
+    width: 300px;
+    height: 44px;
+    margin-top: -90px;
+    padding-top: 8px;
+}
+
+
+
+#skill_screen h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#skill_screen {
+    display: none;
+    width: 600px;
+    height: 400px;
+    background: #000;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#skill_bar .skill {
+    width: 100px;
+    height: 60px;
+    border: 1px solid #ff0000;
+    float: left;
+}
