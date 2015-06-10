@@ -455,13 +455,23 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
-		skill: [
-			"Cyclone Strike",
-			"Exploding Palm",
-			"Lashing Tail Kick",
-			"Tempest Rush",
-			"Wave of Light"
-		],
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Tempest Rush",
+            "Wave of Light"
+         ],
+         4: [
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Tempest Rush",
+            "Wave of Light"
+         ]
+      },
 		smartLoot: [
 			"Monk"
 		],
@@ -551,7 +561,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
-		skill: "none"
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",

@@ -152,7 +152,7 @@ var quiver = [
 		hc: false,
 		season: false,
 		skill: "Elemental Arrow",
-		rune: "Ball Lightning"
+		rune: "Ball Lightning",
 		smartLoot: [
 			"Demon Hunter"
 		],

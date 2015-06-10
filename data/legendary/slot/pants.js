@@ -320,7 +320,7 @@ var pants = [
 		flavor:'These pants were part of an elaborate outfit worn by the infamous (and surprisingly stylish) enchanter Mr. Yan while adventuring in Westmarch. Lacking patience, and impulse control, Mr. Yan was always rushing headlong into danger-not a recipe for survival for a spell caster. Being a clever man, though, Mr. Yan designed this garment to turn his weakness into a strength.'
 	},
 	{
-		name: "Immortal King's Stature"
+		name: "Immortal King's Stature",
 		type: "Pants",
 		skill: "setSkills",
       setSkills: {
@@ -337,6 +337,17 @@ var pants = [
 		smartLoot: [
 			"Barbarian"
 		],
+		primary: {
+			MAIN:null,
+			Socket:{
+				min:2,
+				max:2
+			},
+			RANDOM:2
+		},
+		secondary: {
+			RANDOM:2
+		},
 		set: 'Immortal King\'s Call',
 	},
 	{
