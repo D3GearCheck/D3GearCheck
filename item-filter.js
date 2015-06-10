@@ -43,6 +43,7 @@ var affixesForSkill = function(skillName) {
 var allItemsForClass = function (className) {
 	// Based on class name, creates a dictionary of lists of items mapped by item slot.
 	// Each list contains only the items that are smartLoot for that class.
+	className = util.classDisplayName(className);
 	
 	var classItems = {};
 	for (var slot in items) {
