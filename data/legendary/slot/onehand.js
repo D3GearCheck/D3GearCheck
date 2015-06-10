@@ -5,6 +5,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -29,6 +30,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -53,6 +55,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -81,6 +84,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -108,6 +112,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -136,6 +141,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -163,6 +169,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:4
 		},
@@ -193,6 +200,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Summon Zombie Dogs",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -214,6 +222,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Grasp of the Dead",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -236,6 +245,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -264,6 +274,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Mass Confusion",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -288,6 +299,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -310,6 +322,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -331,6 +344,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Plague of Toads",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -352,6 +366,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: true,
+		skill: "Soul Harvest",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -373,6 +388,10 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: [
+			"Fetish Army",
+			"Big Bad Voodoo"
+		],
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -398,6 +417,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Poison Darts",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -419,6 +439,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -441,6 +462,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Corpse Spiders",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -466,6 +488,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -494,6 +517,7 @@ var onehand = [
 		weight:50,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Monk",
 			"Barbarian",
@@ -522,6 +546,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -546,6 +571,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -578,6 +604,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -606,6 +633,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -629,6 +657,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -651,6 +680,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -673,6 +703,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -694,6 +725,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -722,6 +754,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Dashing Strike",
 		smartLoot: [
 			"Monk"
 		],
@@ -746,6 +779,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -767,6 +801,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -795,6 +830,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -815,6 +851,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -836,6 +873,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -857,6 +895,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -881,6 +920,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Exploding Palm",
 		smartLoot: [
 			"Monk"
 		],
@@ -905,6 +945,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Sweeping Wind",
 		smartLoot: [
 			"Monk"
 		],
@@ -926,6 +967,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Lightning",
 		smartLoot: [
 			"Monk"
 		],
@@ -950,6 +993,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Fist of the Heavens",
 		smartLoot: [
 			"Crusader"
 		],
@@ -974,6 +1018,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "Smite",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:4
 		},
@@ -1001,6 +1046,7 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "Blessed Shield",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1022,6 +1068,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Consecration",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1043,6 +1090,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Blessed Hammer",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1064,6 +1112,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Justice",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1088,6 +1137,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Steed Charge",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1109,6 +1159,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1133,6 +1184,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -1155,6 +1207,7 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1176,6 +1229,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Vault",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1198,6 +1252,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Vault",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1220,6 +1275,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1244,6 +1300,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -1272,6 +1329,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1293,6 +1351,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Strafe",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1315,6 +1374,12 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Rain of Vengeance",
+         4:"Rain of Vengeance",
+         6:"Rain of Vengeance"
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -1341,6 +1406,8 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
+		element: "Fire",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:4
 		},
@@ -1371,6 +1438,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1400,6 +1468,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Blessed Hammer",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1424,6 +1493,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1452,6 +1522,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1480,6 +1551,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1511,6 +1583,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1541,6 +1614,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1569,6 +1643,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1601,6 +1676,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1626,6 +1702,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1647,6 +1724,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1668,6 +1746,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+		setSkills: "Whirlwind",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1690,6 +1770,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+		setSkills: "Whirlwind",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1712,6 +1794,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1739,6 +1822,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -1762,6 +1846,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -1788,6 +1873,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Hammer of the Ancients",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1812,6 +1898,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Holy",
 		smartLoot: [
 			"Monk",
 			"Crusader"
@@ -1837,6 +1925,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1862,6 +1951,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1890,6 +1980,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1915,6 +2006,10 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: [
+			"Weapon Throw",
+			"Ancient Spear"
+		],
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1943,6 +2038,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Holy",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1976,6 +2073,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -2003,6 +2101,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2032,6 +2131,8 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Physical",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2059,6 +2160,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2086,6 +2188,8 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Lightning",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2113,6 +2217,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2141,6 +2246,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2
 		},
@@ -2167,6 +2273,7 @@ var onehand = [
 		weight:50,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Monk",
 			"Barbarian",
@@ -2196,6 +2303,7 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian"
@@ -2218,6 +2326,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2245,6 +2354,8 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Cold",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2269,6 +2380,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2298,6 +2410,12 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: [
+			"Cold",
+			"Poison",
+			"Lightning"
+		],
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2326,6 +2444,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Crusader"
@@ -2352,6 +2471,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2377,6 +2497,7 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian"
@@ -2400,6 +2521,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2429,6 +2551,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -2455,6 +2578,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Teleport",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2476,6 +2600,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ap:38,vc:30,fs:2
 		},
@@ -2498,6 +2623,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2519,6 +2645,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2540,6 +2667,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Spectral Blade",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2564,6 +2692,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Slow Time",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2592,6 +2721,7 @@ var onehand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -2615,6 +2745,7 @@ var onehand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Hydra",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2636,6 +2767,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Disintegrate",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2661,6 +2793,7 @@ var onehand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -2681,6 +2814,7 @@ var onehand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "Explosive Blast",
 		smartLoot: [
 			"Wizard"
 		],

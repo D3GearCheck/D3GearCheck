@@ -5,6 +5,7 @@ var amulet = [
 		weight: 25,
 		hc: true,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -31,6 +32,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -57,6 +59,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -86,6 +89,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -115,6 +119,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -140,6 +145,14 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: [
+			"Archon",
+			"Wrath of the Berserker",
+			"Vengeance",
+			"Big Bad Voodoo",
+			"Epiphany",
+			"Akarat's Champion"
+		],
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -169,6 +182,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -220,6 +234,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -244,6 +259,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -272,6 +288,7 @@ var amulet = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -301,6 +318,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -326,6 +344,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -351,6 +370,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -379,6 +399,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -407,6 +428,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -433,6 +455,13 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: [
+			"Cyclone Strike",
+			"Exploding Palm",
+			"Lashing Tail Kick",
+			"Tempest Rush",
+			"Wave of Light"
+		],
 		smartLoot: [
 			"Monk"
 		],
@@ -454,6 +483,23 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "setElement",
+      setElement: {
+         2: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ],
+         4: "none",
+         6: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ]
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -476,6 +522,7 @@ var amulet = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -504,6 +551,7 @@ var amulet = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none"
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -533,6 +581,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -561,6 +610,7 @@ var amulet = [
 		weight: 10,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -590,6 +640,7 @@ var amulet = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -616,6 +667,7 @@ var amulet = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",

@@ -5,6 +5,7 @@ var bracers = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -33,6 +34,7 @@ var bracers = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:72,vc:7,fs:2,db:4
 		},
@@ -60,6 +62,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -113,6 +116,7 @@ var bracers = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "Shield Bash",
 		smartLoot: ["Crusader"],
 		primary:{
 			Strength:null,
@@ -135,6 +139,7 @@ var bracers = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:72,vc:7,fs:2,db:4
 		},
@@ -162,6 +167,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Exploding Palm",
 		smartLoot: [
 			"Monk"
 		],
@@ -183,6 +189,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -204,11 +211,12 @@ var bracers = [
 		flavor:'“Twas hitherto eons past from whence Krelm the Immodest didst thitherward dash forth upon the Blazing Wastes clad only in his bogodile skin belt and bracers to face the loathsome Oglak beast and slew him thence mightily with nigh but his bare hands thereupon.” -Excerpt from Stories Meant to Frighten Small Children'
 	},
 		{
-		name:"Kethyes' Splint",
+		name:"Kethryes' Splint",
 		type:"Bracers",
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:72,vc:7,fs:2
 		},
@@ -235,6 +243,7 @@ var bracers = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -268,6 +277,7 @@ var bracers = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -293,6 +303,7 @@ var bracers = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -322,6 +333,7 @@ var bracers = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "Energy Twister",
 		smartLoot:[
 			"Wizard"
 		],
@@ -343,6 +355,7 @@ var bracers = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Barbarian",
 			"Crusader",
@@ -370,6 +383,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -394,6 +408,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -426,6 +441,7 @@ var bracers = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -450,6 +466,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -478,6 +495,7 @@ var bracers = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -508,6 +526,7 @@ var bracers = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -536,6 +555,7 @@ var bracers = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",

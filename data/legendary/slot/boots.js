@@ -5,6 +5,7 @@ var boots = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:45,fs:2,db:8
 		},
@@ -32,6 +33,7 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -58,6 +60,7 @@ var boots = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:45,fs:2
 		},
@@ -85,6 +88,7 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -110,6 +114,7 @@ var boots = [
 		weight: 0,
 		hc: false,
 		season: false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:45,fs:2,db:8
 		},
@@ -137,6 +142,7 @@ var boots = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:45,fs:2,db:8
 		},
@@ -164,6 +170,12 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Dashing Strike",
+         6: "Dashing Strike"
+      },
 		smartLoot: [
 			"Monk"
 		],
@@ -185,6 +197,7 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -214,6 +227,13 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "setElement",
+      setElement: {
+         2: "none",
+         4: "Fire",
+         6: "Fire",
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -235,6 +255,12 @@ var boots = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "none",
+         6: "Multishot"
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -256,6 +282,12 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Wall of Zombies",
+         6: "Wall of Zombies"
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -277,6 +309,7 @@ var boots = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -307,6 +340,18 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+		setSkills: {
+			2:"Call of the Ancients",
+			4:[
+				"Wrath of the Berserker",
+				"Call of the Ancients"
+			],
+			6:[
+				"Wrath of the Berserker",
+				"Call of the Ancients"
+			]
+		},
 		smartLoot: [
 			"Barbarian"
 		],
@@ -328,8 +373,26 @@ var boots = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Mystic Ally",
+            "Mantra of Salvation",
+            "Mantra of Retribution",
+            "Mantra of Healing",
+            "Mantra of Conviction"
+         ],
+         4: "none",
+         6: [
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Seven-Sided Strike",
+            "Wave of Light"
+         ]
+      },
 		smartLoot:[
-
+			"Monk"
 		],
 		primary:{
 			Dexterity:null,
@@ -349,6 +412,7 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -378,6 +442,16 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Haunt",
+         4: "Soul Harvest",
+         6: [
+            "Soul Harvest",
+            "Haunt",
+            "Locust Swarm",
+         ]
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -399,6 +473,7 @@ var boots = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Leap",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -419,6 +494,19 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Companion",
+         4: "Sentry",
+         6: [
+            "Elemental Arrow",
+            "Chakram",
+            "Impale",
+            "Multishot",
+            "Cluster Arrow",
+            "Sentry"
+         ],
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -440,6 +528,12 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Rain of Vengeance",
+         4:"Rain of Vengeance",
+         6:"Rain of Vengeance"
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -461,6 +555,7 @@ var boots = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "Meteor",
 		smartLoot: [
 			"Wizard"
 		],
@@ -485,6 +580,12 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Furious Charge",
+         4: "Furious Charge",
+         5: "Furious Charge"
+      },
 		smartLoot: [
 			"Barbarian"
 		],
@@ -506,6 +607,28 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: [
+            "Shield Bash",
+            "Sweep Attack",
+            "Laws of Valor",
+            "Laws of Justice",
+            "Laws of Hope",
+            "Shield Glare",
+            "Iron Skin",
+            "Consecration",
+            "Judgment"
+         ],
+         4: [
+            "Shield Bash",
+            "Sweep Attack"
+         ],
+         6: [
+            "Shield Bash",
+            "Sweep Attack"
+         ]
+      },
 		smartLoot: [
 			"Crusader"
 		],
@@ -527,6 +650,12 @@ var boots = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2: "Rend",
+         4: "Whirlwind",
+         6: "Whirlwind"
+      },
 		smartLoot:["Barbarian"],
 		primary:{
 			Strength:null,
@@ -546,6 +675,12 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Akarat's Champion",
+         6: "Akarat's Champion"
+      },
 		smartLoot: [
 			"Crusader"
 		],
@@ -567,6 +702,7 @@ var boots = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:45,fs:2,db:8
 		},
@@ -594,6 +730,7 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Mystic Ally",
 		smartLoot: [
 			"Monk"
 		],
@@ -615,6 +752,11 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Shadow Power"
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -636,6 +778,23 @@ var boots = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Arcane Orb",
+            "Energy Twister",
+            "Magic Missile",
+            "Shock Pulse"
+         ],
+         4: "Slow Time",
+         6:[
+            "Slow Time",
+            "Arcane Orb",
+            "Energy Twister",
+            "Magic Missile",
+            "Shock Pulse"
+         ],
+      },
 		smartLoot:["Wizard"],
 		primary:{
 			Intelligence:null,
@@ -655,6 +814,11 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2: "none",
+         4: "Archon"
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -676,6 +840,19 @@ var boots = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Fetish Army",
+         4:[
+            "Fetish Army",
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ],
+         6:[
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ]
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],

@@ -5,6 +5,7 @@ var source = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Wizard"
 		],
@@ -29,6 +30,7 @@ var source = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "Teleport",
 		craft:{
 			rp:40,ad:38,vc:30,fs:2,db:5
 		},
@@ -52,6 +54,13 @@ var source = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+      element: "setElement",
+      setElement: {
+         2: "none",
+         4: "Fire",
+         6: "Fire",
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -77,6 +86,7 @@ var source = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Ray of Frost",
 		smartLoot: [
 			"Wizard"
 		],
@@ -99,6 +109,7 @@ var source = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Magic Missile",
 		smartLoot: [
 			"Wizard"
 		],
@@ -124,6 +135,7 @@ var source = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Electrocute",
 		smartLoot: [
 			"Wizard"
 		],
@@ -146,6 +158,23 @@ var source = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+      element: "setElement",
+      setElement: {
+         2: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ],
+         4: "none",
+         6: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ]
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -172,6 +201,7 @@ var source = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Teleport",
 		smartLoot: [
 			"Wizard"
 		],
@@ -201,6 +231,7 @@ var source = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Arcane Orb",
 		smartLoot: [
 			"Wizard"
 		],
@@ -226,6 +257,8 @@ var source = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Cold",
 		smartLoot: [
 			"Wizard"
 		],

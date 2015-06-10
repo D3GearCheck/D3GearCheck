@@ -190,6 +190,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Punish",
 		smartLoot: [
 			"Crusader"
 		],
@@ -210,6 +211,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -237,6 +239,7 @@ var belt = [
 		weight:50,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Witch Doctor"
 		],
@@ -258,6 +261,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -285,6 +289,7 @@ var belt = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "Justice",
 		smartLoot:[
 			"Crusader"
 		],
@@ -306,6 +311,7 @@ var belt = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:22,fs:2,db:8
 		},
@@ -333,6 +339,7 @@ var belt = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "Rain of Vengeance",
 		smartLoot:[
 			"Demon Hunter"
 		],
@@ -357,6 +364,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -386,6 +394,7 @@ var belt = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:22,fs:2,db:8
 		},
@@ -413,6 +422,7 @@ var belt = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:22,fs:2
 		},
@@ -442,6 +452,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -467,6 +478,7 @@ var belt = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:25,ad:12,vc:22,fs:2,db:8
 		},
@@ -494,6 +506,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -522,6 +535,7 @@ var belt = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "Haunt",
 		smartLoot:[
 			"Witch Doctor"
 		],
@@ -543,6 +557,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -572,6 +587,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Locust Swarm",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -596,6 +612,24 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+		setSkills: {
+			2:[
+				"Mystic Ally",
+				"Mantra of Salvation",
+				"Mantra of Retribution",
+				"Mantra of Healing",
+				"Mantra of Conviction"
+			],
+			4: "none",
+			6: [
+				"Cyclone Strike",
+				"Exploding Palm",
+				"Lashing Tail Kick",
+				"Seven-Sided Strike",
+				"Wave of Light"
+			]
+		},
 		smartLoot: [
 			"Monk"
 		],
@@ -617,6 +651,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Black Hole",
 		smartLoot: [
 			"Wizard"
 		],
@@ -640,6 +675,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -666,6 +702,7 @@ var belt = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "Slash",
 		smartLoot:[
 			"Crusader"
 		],
@@ -687,6 +724,7 @@ var belt = [
 		weight:100,
 		hc:false,
 		season:false,
+		skill: "Vault",
 		smartLoot:[
 			"Demon Hunter"
 		],
@@ -707,6 +745,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -735,6 +774,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -767,6 +807,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -795,6 +836,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -820,6 +862,7 @@ var belt = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -848,6 +891,24 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		skill: "none",
+      element: "setElement",
+      setElement: {
+         2: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ],
+         4: "none",
+         6: [
+            "Arcane",
+            "Cold",
+            "Fire",
+            "Lightning"
+         ]
+      },
 		smartLoot: [
 			"Wizard"
 		],
@@ -869,6 +930,7 @@ var belt = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -901,6 +963,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -934,6 +997,7 @@ var belt = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",

@@ -5,6 +5,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -30,6 +31,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2,db:4
 		},
@@ -60,6 +62,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -85,6 +88,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -110,6 +114,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -135,6 +140,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -159,6 +165,8 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Cold",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -184,6 +192,7 @@ var twohand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "Elemental Arrow",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -209,6 +218,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "Bola Shot",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -233,6 +243,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "Entangling Shot",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -257,6 +268,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2
 		},
@@ -281,6 +293,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -306,6 +319,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2
 		},
@@ -333,6 +347,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -357,6 +372,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -381,6 +397,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -401,6 +418,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -422,6 +440,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Wave of Light",
 		smartLoot: [
 			"Monk"
 		],
@@ -450,6 +469,24 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:[
+            "Mystic Ally",
+            "Mantra of Salvation",
+            "Mantra of Retribution",
+            "Mantra of Healing",
+            "Mantra of Conviction"
+         ],
+         4: "none",
+         6: [
+            "Cyclone Strike",
+            "Exploding Palm",
+            "Lashing Tail Kick",
+            "Seven-Sided Strike",
+            "Wave of Light"
+         ]
+      },
 		smartLoot: [
 			"Monk"
 		],
@@ -475,6 +512,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2
 		},
@@ -497,6 +535,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2
 		},
@@ -519,6 +558,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Deadly Reach",
 		smartLoot: [
 			"Monk"
 		],
@@ -544,6 +584,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Seven-Sided Strike",
 		smartLoot: [
 			"Monk"
 		],
@@ -568,6 +609,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -589,6 +631,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Tempest Rush",
 		smartLoot: [
 			"Monk"
 		],
@@ -610,6 +653,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Demon Hunter"
 		],
@@ -629,6 +673,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -649,6 +694,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -676,6 +722,7 @@ var twohand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "Spike Traps",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -700,6 +747,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -724,6 +772,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -745,6 +794,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -766,6 +816,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -790,6 +841,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Rapid Fire",
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -814,6 +866,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Akarat's Champion",
 		smartLoot: [
 			"Crusader"
 		],
@@ -835,6 +888,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Heaven's Fury",
 		smartLoot: [
 			"Crusader"
 		],
@@ -856,6 +910,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Sweep Attack",
 		smartLoot: [
 			"Crusader"
 		],
@@ -880,6 +935,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Bombardment",
 		smartLoot: [
 			"Crusader"
 		],
@@ -901,6 +957,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -929,6 +986,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -953,6 +1011,8 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Lightning",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -983,6 +1043,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1004,6 +1065,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1033,6 +1095,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2,db:4
 		},
@@ -1063,6 +1126,7 @@ var twohand = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1091,6 +1155,8 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Cold",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1118,6 +1184,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Frenzy",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1140,6 +1207,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Seismic Slam",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1168,6 +1236,18 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Call of the Ancients",
+         4:[
+            "Wrath of the Berserker",
+            "Call of the Ancients"
+         ],
+         6:[
+            "Wrath of the Berserker",
+            "Call of the Ancients"
+         ]
+      },
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1194,6 +1274,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1215,6 +1296,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Hammer of the Ancients",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -1244,6 +1326,7 @@ var twohand = [
 		hc:false,
 		season:false,
 		craft:{},
+		skill: "none",
 		smartLoot:[
 			"Barbarian"
 		],
@@ -1263,6 +1346,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1286,6 +1370,8 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Physical",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1314,6 +1400,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1337,6 +1424,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1361,6 +1449,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -1382,6 +1471,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Wizard",
@@ -1405,6 +1495,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Wizard",
@@ -1428,6 +1519,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Wizard",
@@ -1451,6 +1543,7 @@ var twohand = [
 		weight:0,
 		hc:false,
 		season:false,
+		skill: "none",
 		craft:{
 			rp:80,ad:43,vc:30,fs:2
 		},
@@ -1475,6 +1568,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Wizard",
@@ -1499,6 +1593,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Meteor",
 		smartLoot: [
 			"Wizard"
 		],
@@ -1527,6 +1622,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Meteor",
 		smartLoot: [
 			"Wizard"
 		],
@@ -1549,6 +1645,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Wizard",
@@ -1572,6 +1669,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Energy Twister",
 		smartLoot: [
 			"Wizard"
 		],
@@ -1594,6 +1692,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Locust Swarm",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -1619,6 +1718,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1648,6 +1748,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Condemn",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1669,6 +1770,7 @@ var twohand = [
 		weight:50,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:["Crusader"],
 		primary:{
 			WEAPON_DAMAGE:null,
@@ -1692,6 +1794,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Falling Sword",
 		smartLoot: [
 			"Crusader"
 		],
@@ -1713,6 +1816,7 @@ var twohand = [
 		weight:25,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1745,6 +1849,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1773,6 +1878,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1802,6 +1908,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1830,6 +1937,7 @@ var twohand = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1856,6 +1964,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1884,6 +1993,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1912,6 +2022,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",
@@ -1937,6 +2048,7 @@ var twohand = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk",
 			"Barbarian",

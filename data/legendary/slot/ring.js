@@ -5,6 +5,7 @@ var ring = [
 		weight:50,
 		hc:false,
 		season:false,
+		skill: "none",
 		smartLoot:[
 			"Demon Hunter",
 			"Monk",
@@ -33,6 +34,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -58,6 +60,7 @@ var ring = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Monk"
 		],
@@ -82,6 +85,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -108,6 +112,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -134,6 +139,7 @@ var ring = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -164,6 +170,7 @@ var ring = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "Phalanx",
 		smartLoot: [
 			"Crusader"
 		],
@@ -184,6 +191,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -210,6 +218,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Ice Armor",
 		smartLoot: [
 			"Wizard"
 		],
@@ -234,6 +243,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -266,6 +276,7 @@ var ring = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -291,6 +302,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -320,6 +332,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -346,6 +359,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -371,6 +385,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -402,6 +417,12 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Rain of Vengeance",
+         4:"Rain of Vengeance",
+         6:"Rain of Vengeance"
+      },
 		smartLoot: [
 			"Demon Hunter"
 		],
@@ -423,6 +444,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: true,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -451,6 +473,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -487,6 +510,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -516,6 +540,7 @@ var ring = [
 		weight: 25,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -573,6 +598,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -601,6 +627,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Whirlwind",
 		smartLoot: [
 			"Barbarian"
 		],
@@ -625,6 +652,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -650,6 +678,7 @@ var ring = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -682,6 +711,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -711,6 +741,7 @@ var ring = [
 		weight:100,
 		hc:false,
 		season:true,
+		skill: "Gargantuan",
 		smartLoot:[
 			"Witch Doctor"
 		],
@@ -732,6 +763,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "Summon Zombie Dogs",
 		smartLoot: [
 			"Witch Doctor"
 		],
@@ -752,6 +784,7 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -778,6 +811,7 @@ var ring = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -808,6 +842,8 @@ var ring = [
 		weight: 50,
 		hc: false,
 		season: false,
+		skill: "none",
+		element: "Lightning",
 		smartLoot: [
 			"Demon Hunter",
 			"Monk",
@@ -836,6 +872,19 @@ var ring = [
 		weight: 100,
 		hc: false,
 		season: false,
+		skill: "setSkills",
+      setSkills: {
+         2:"Fetish Army",
+         4:[
+            "Fetish Army",
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ],
+         6:[
+            "Summon Zombie Dogs",
+            "Gargantuan"
+         ]
+      },
 		smartLoot: [
 			"Witch Doctor"
 		],
