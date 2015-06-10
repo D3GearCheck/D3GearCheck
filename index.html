@@ -18,7 +18,12 @@
         <script type="text/javascript" src="app.js"></script>
         <script type="text/javascript">
         // Start the client when 
-        $(document).ready(function() { client.start(); });
+        $(document).ready(function() { 
+            $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+            })
+            client.start(); 
+        });
         </script>
     </head>
     <body>
@@ -34,6 +39,8 @@
         </div>
         <div id="skill_screen">
             <div class="liner">
+                <div class="col_right">
+                </div>
                 <div class="col_left">
                     <div id="paperdoll">
                         <div id="slot_shoulders" class="item_slot">
@@ -76,6 +83,7 @@
 
                     </div>
                 </div>
+
             </div>
         </div>
 

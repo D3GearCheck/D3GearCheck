@@ -1,5 +1,5 @@
 body {
-    background: #212121;
+    background: url('../images/bg1.jpg') no-repeat #212121;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -13,9 +13,18 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-.col_left {
+
+#skill_screen .col_left {
     width: 303px;
     display: table;
+}
+
+#skill_screen .liner .col_right {
+    display: table;
+    width: 550px;
+    height: 550px;
+    border: 1px solid #ff0000;
+    float: right;
 }
 #calc_url {
     width: 460px;
