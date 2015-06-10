@@ -13,7 +13,10 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-
+.col_left {
+    width: 303px;
+    display: table;
+}
 #calc_url {
     width: 460px;
 }
@@ -73,15 +76,34 @@ body {
     margin-left: 10px;
 }
 
+#skill_bar_passive {
+
+}
 .skill_bar {
+    display: table;
     float: left;
-    margin-top: 15px;
-    height: 60px;
+    height: 40px;
     width: 302px;
 }
 
 .skill_bar .skill:first-child {
     margin-left: 0px !important;
+}
+
+#active_bar_label {
+    color: #fff;
+    width: 300px;
+    float: left;
+    clear: both;
+    margin-top: 6px;
+
+}
+#passive_bar_label {
+    color: #fff;
+    float: left;
+    width: 300px;
+    clear: both;
+    margin-top: 6px;
 }
 
 #paperdoll {
