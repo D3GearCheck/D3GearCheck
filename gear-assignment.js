@@ -16,7 +16,8 @@ var Loadout = {
 	itemListForSlot: function(slot) {
 		var itemList = [];
 		// Quick and dirty, sort by tier
-		itemList = itemList.concat(this.skillItems[slot]);
+		itemList = itemList.concat(this.equipment[slot]);
+		itemList = itemList.concat(this.setItems[slot]);
 		itemList = itemList.concat(this.skillItems[slot]);
 		itemList = itemList.concat(this.classItems[slot]);
 		return itemList;
