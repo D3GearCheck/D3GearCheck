@@ -16,7 +16,6 @@
         <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/require.js"></script>
         <script type="text/javascript" src="lib/frontend.js"></script>
-
         <script type="text/javascript" src="app.js"></script>
         <script type="text/javascript">
         // Start the client when 
@@ -51,43 +50,43 @@
                 </div>
                 <div class="col_left">
                     <div id="paperdoll">
-                        <div id="slot_shoulders" onclick="client.displaySlotItems(Slots.SHOULDERS);" class="item_slot">
+                        <div id="slot_shoulders" onclick="return client.displaySlotItems(Slots.SHOULDERS);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_shoulder_002_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_ring_left" class="item_slot" onclick="client.displaySlotItems(Slots.RING);">
+                        <div id="slot_ring_left" class="item_slot" onclick="return client.displaySlotItems(Slots.RING);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_ring_right" onclick="client.displaySlotItems(Slots.RING);" class="item_slot">
+                        <div id="slot_ring_right" onclick="return client.displaySlotItems(Slots.RING);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_ring_014_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_secondary" onclick="client.displaySlotItems(Slots.SECONDARY);" class="item_slot">
+                        <div id="slot_secondary" onclick="return client.displaySlotItems(Slots.SECONDARY);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_orb_set_06_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_primary"  onclick="client.displaySlotItems(Slots.PRIMARY);" class="item_slot">
+                        <div id="slot_primary"  onclick="return client.displaySlotItems(Slots.PRIMARY);" class="item_slot">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_wand_102_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_feet" class="item_slot" onclick="client.displaySlotItems(Slots.FEET);">
+                        <div id="slot_feet" class="item_slot" onclick="return client.displaySlotItems(Slots.FEET);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_boots_008_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_chest" class="item_slot" onclick="client.displaySlotItems(Slots.CHEST);">
+                        <div id="slot_chest" class="item_slot" onclick="return client.displaySlotItems(Slots.CHEST);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_chest_012_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_head" class="item_slot" onclick="client.displaySlotItems(Slots.HEAD);">
+                        <div id="slot_head" class="item_slot" onclick="return client.displaySlotItems(Slots.HEAD);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/helm_208_wizard_male.png"/>
                         </div>
-                        <div id="slot_wrist" class="item_slot" onclick="client.displaySlotItems(Slots.WRIST);">
+                        <div id="slot_wrist" class="item_slot" onclick="return client.displaySlotItems(Slots.WRIST);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_bracer_103_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_hands" class="item_slot" onclick="client.displaySlotItems(Slots.HANDS);">
+                        <div id="slot_hands" class="item_slot" onclick="return client.displaySlotItems(Slots.HANDS);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_gloves_015_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_legs" class="item_slot" onclick="client.displaySlotItems(Slots.LEGS);">
+                        <div id="slot_legs" class="item_slot" onclick="return client.displaySlotItems(Slots.LEGS);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_pants_set_06_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_neck" class="item_slot" onclick="client.displaySlotItems(Slots.NECK);">
+                        <div id="slot_neck" class="item_slot" onclick="return client.displaySlotItems(Slots.NECK);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_amulet_002_x1_demonhunter_male.png"/>
                         </div>
-                        <div id="slot_waist" class="item_slot" onclick="client.displaySlotItems(Slots.WAIST);">
+                        <div id="slot_waist" class="item_slot" onclick="return client.displaySlotItems(Slots.WAIST);">
                             <img src="http://us.media.blizzard.com/d3/icons/items/large/unique_belt_105_x1_demonhunter_male.png"/>
                         </div>
                     </div>
@@ -108,9 +107,9 @@
         </div>
 
         <div id="loader" class="client_screen">
-            <img src="images/loading.gif" /><br/>
+            <!-- <img src="images/loading.gif" /><br/> -->
             <div id="loading_text">Loading...</div>
         </div>
-        <script src="http://us.battle.net/d3/static/js/tooltips.js"></script>
+                <script src="http://us.battle.net/d3/static/js/tooltips.js"></script>
     </body>
 </html>
